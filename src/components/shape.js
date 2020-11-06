@@ -2,7 +2,7 @@
 
 // export class using module.exports
 
-export default class shape {
+class shape {
   drawShape = () => {
     console.log("draw shape");
   };
@@ -13,3 +13,5 @@ export default class shape {
 
   color = "blue";
 }
+
+module.exports.shape = shape;

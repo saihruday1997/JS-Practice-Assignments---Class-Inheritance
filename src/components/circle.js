@@ -6,8 +6,10 @@ const { default: shape } = require("./shape");
 
 // export class using module.exports
 
-export default class circle extends shape {
+class circle extends shape {
   calculateArea = () => {
     console.log("circle calc area");
   };
 }
+
+module.exports.circle = circle;
