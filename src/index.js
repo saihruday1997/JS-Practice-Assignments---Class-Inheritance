@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import Shape from "./components/shape";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Shape />, document.getElementById("root"));

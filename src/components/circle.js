@@ -1,6 +1,6 @@
 // import using require
 
-const { default: shape } = require("./shape.js");
+const shape = require("./shape.js");
 
 // declare class
 

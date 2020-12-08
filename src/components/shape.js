@@ -3,7 +3,7 @@
 // export class using module.exports
 
 class shape {
-  drawShape = () => {
+  drawShape = function () {
     console.log("draw shape");
   };
 
