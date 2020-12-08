@@ -3,15 +3,18 @@
 // export class using module.exports
 
 class shape {
-  drawShape = function () {
-    console.log("draw shape");
-  };
+  constructor() {
+    super();
+    this.drawShape = function () {
+      console.log("draw shape");
+    };
 
-  calculateArea = () => {
-    console.log("shape calc area");
-  };
+    this.calculateArea = () => {
+      console.log("shape calc area");
+    };
 
-  color = "blue";
+    this.color = "blue";
+  }
 }
 
 module.exports.shape = shape;
