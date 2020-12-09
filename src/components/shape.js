@@ -2,19 +2,18 @@
 
 // export class using module.exports
 
-class shape {
+class Shape {
   constructor() {
-    super();
-    this.drawShape = function () {
-      console.log("draw shape");
-    };
-
-    this.calculateArea = () => {
-      console.log("shape calc area");
-    };
-
     this.color = "blue";
   }
+
+  drawShape = function () {
+    console.log("draw shape");
+  };
+
+  calculateArea = () => {
+    console.log("shape calc area");
+  };
 }
 
-module.exports.shape = shape;
+module.exports = Shape;
