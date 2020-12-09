@@ -11,9 +11,9 @@ class Circle extends Shape {
     super();
   }
 
-  calculateArea = () => {
+  calculateArea() {
     console.log("circle calc area");
-  };
+  }
 }
 
 module.exports = Circle;
