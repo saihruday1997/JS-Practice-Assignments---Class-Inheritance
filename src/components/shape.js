@@ -7,13 +7,9 @@ class Shape {
     this.color = "blue";
   }
 
-  drawShape() {
-    console.log("draw shape");
-  }
+  drawShape() {}
 
-  calculateArea() {
-    console.log("shape calc area");
-  }
+  calculateArea() {}
 }
 
 module.exports = Shape;
